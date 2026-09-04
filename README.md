@@ -58,7 +58,6 @@ The raw dataset is excluded from GitHub using .gitignore.
 
 ## Project Workflow
 
-```text
 Dataset
 │
 ├── Exploratory Data Analysis
@@ -208,7 +207,6 @@ notebooks/05_evaluation.ipynb
 
 ## Project Structure
 
-```text
 fake-news-detection-ml/
 │
 ├── data/
