@@ -58,31 +58,32 @@ The raw dataset is excluded from GitHub using .gitignore.
 
 ## Project Workflow
 
+```text
 Dataset
-↓
-Exploratory Data Analysis
-↓
-Text Preprocessing
-↓
-Feature Engineering
-├── Bag of Words
-├── TF-IDF
-└── Word2Vec Embeddings
-↓
-Model Training
-├── Logistic Regression
-├── K-Nearest Neighbors
-├── Random Forest
-└── Neural Network
-↓
-Model Evaluation
-├── Accuracy
-├── Precision
-├── Recall
-├── F1-Score
-└── Confusion Matrix
-↓
-Model Comparison
+│
+├── Exploratory Data Analysis
+│
+├── Text Preprocessing
+│
+├── Feature Engineering
+│   ├── Bag of Words
+│   ├── TF-IDF
+│   └── Word2Vec Embeddings
+│
+├── Model Training
+│   ├── Logistic Regression
+│   ├── K-Nearest Neighbors
+│   ├── Random Forest
+│   └── Neural Network
+│
+├── Model Evaluation
+│   ├── Accuracy
+│   ├── Precision
+│   ├── Recall
+│   ├── F1-Score
+│   └── Confusion Matrix
+│
+└── Model Comparison
 
 ## Exploratory Data Analysis
 
@@ -207,44 +208,45 @@ notebooks/05_evaluation.ipynb
 
 ## Project Structure
 
-The project is organized into the following directories:
-
-- data/
-  - processed/
-    - bow_vectorizer.pkl
-    - cleaned_news.csv
-    - tfidf_vectorizer.pkl
-    - word2vec.model
-    - X_test_bow.npz
-    - X_test_tfidf.npz
-    - X_test_w2v.npy
-    - X_train_bow.npz
-    - X_train_tfidf.npz
-    - X_train_w2v.npy
-    - y_test.csv
-    - y_train.csv
-  - raw/
-    - Fake.csv
-    - Real.csv
-
-- notebooks/
-  - 01_data_exploration.ipynb
-  - 02_preprocessing.ipynb
-  - 03_feature_engineering.ipynb
-  - 04_model_training.ipynb
-  - 05_evaluation.ipynb
-
-- results/
-  - evaluation_results.csv
-  - model_comparison.csv
-
-- src/
-
-- .gitignore
-
-- README.md
-
-Raw and processed datasets are excluded from GitHub where appropriate because of their size and the project's .gitignore configuration.
+```text
+fake-news-detection-ml/
+│
+├── data/
+│   ├── processed/
+│   │   ├── bow_vectorizer.pkl
+│   │   ├── cleaned_news.csv
+│   │   ├── tfidf_vectorizer.pkl
+│   │   ├── word2vec.model
+│   │   ├── word2vec.model.syn1neg.npy
+│   │   ├── word2vec.model.wv.vectors.npy
+│   │   ├── X_test_bow.npz
+│   │   ├── X_test_tfidf.npz
+│   │   ├── X_test_w2v.npy
+│   │   ├── X_train_bow.npz
+│   │   ├── X_train_tfidf.npz
+│   │   ├── X_train_w2v.npy
+│   │   ├── y_test.csv
+│   │   └── y_train.csv
+│   │
+│   └── raw/
+│       ├── Fake.csv
+│       └── Real.csv
+│
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_preprocessing.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_model_training.ipynb
+│   └── 05_evaluation.ipynb
+│
+├── results/
+│   ├── evaluation_results.csv
+│   └── model_comparison.csv
+│
+├── src/
+│
+├── .gitignore
+└── README.md
 
 ## How to Run the Project
 
