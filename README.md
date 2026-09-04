@@ -58,30 +58,31 @@ The raw dataset is excluded from GitHub using .gitignore.
 
 ## Project Workflow
 
+```text
 Dataset
-↓
+   ↓
 Exploratory Data Analysis
-↓
+   ↓
 Text Preprocessing
-↓
+   ↓
 Feature Engineering
-├── Bag of Words
-├── TF-IDF
-└── Word2Vec Embeddings
-↓
+   ├── Bag of Words
+   ├── TF-IDF
+   └── Word2Vec Embeddings
+   ↓
 Model Training
-├── Logistic Regression
-├── K-Nearest Neighbors
-├── Random Forest
-└── Neural Network
-↓
+   ├── Logistic Regression
+   ├── K-Nearest Neighbors
+   ├── Random Forest
+   └── Neural Network
+   ↓
 Model Evaluation
-├── Accuracy
-├── Precision
-├── Recall
-├── F1-Score
-└── Confusion Matrix
-↓
+   ├── Accuracy
+   ├── Precision
+   ├── Recall
+   ├── F1-Score
+   └── Confusion Matrix
+   ↓
 Model Comparison
 
 ## Exploratory Data Analysis
