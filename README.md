@@ -58,6 +58,7 @@ The raw dataset is excluded from GitHub using .gitignore.
 
 ## Project Workflow
 
+```bash
 Dataset
 │
 ├── Exploratory Data Analysis
@@ -83,7 +84,7 @@ Dataset
 │   └── Confusion Matrix
 │
 └── Model Comparison
-
+```
 ## Exploratory Data Analysis
 
 Exploratory Data Analysis is performed to understand the characteristics of the dataset.
@@ -206,7 +207,7 @@ The evaluation is implemented in:
 notebooks/05_evaluation.ipynb
 
 ## Project Structure
-
+```bash
 fake-news-detection-ml/
 │
 ├── data/
@@ -245,7 +246,7 @@ fake-news-detection-ml/
 │
 ├── .gitignore
 └── README.md
-
+```
 ## How to Run the Project
 
 ### 1. Clone the Repository
