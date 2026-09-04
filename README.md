@@ -319,13 +319,6 @@ Possible future improvements include:
 - Adding real-time news verification
 - Using external evidence sources for fact verification
 
-## Author
-
-Rahul 
-
-Bachelor of Technology
-Computer Science and Engineering
-
 ## License
 
 This project is developed for educational and academic purposes.
